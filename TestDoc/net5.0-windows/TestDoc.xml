@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TestDoc</name>
+    </assembly>
+    <members>
+        <member name="T:TestDoc.Form1">
+            <summary>
+            Testing of MyNewClass using Form - Form1
+            </summary>
+        </member>
+        <member name="M:TestDoc.Form1.#ctor">
+            <summary>
+            Initialise test MyNewClass as size 4
+            </summary>
+        </member>
+        <member name="M:TestDoc.Form1.Form1_Load(System.Object,System.EventArgs)">
+            <summary>
+            add test data to MyNewClass.
+            First test in bounds and extreme data 
+            then out of bounds data
+            Test passes when correct messages returned for
+            Adding data
+            And retreiving data
+            </summary>
+            <param name="sender">Loader object</param>
+            <param name="e">Loading event</param>
+        </member>
+        <member name="F:TestDoc.Form1.components">
+            <summary>
+             Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TestDoc.Form1.Dispose(System.Boolean)">
+            <summary>
+             Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:TestDoc.Form1.InitializeComponent">
+            <summary>
+             Required method for Designer support - do not modify
+             the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:TestDoc.MyNewClass">
+            <summary>
+            class to test documenting
+            A class to store an array for statistics
+            </summary>
+            
+        </member>
+        <member name="F:TestDoc.MyNewClass.desiredArraySize">
+            <summary>
+            n the size of the array is passed to the constructor
+            and stored in the parameter desired array size
+            </summary>
+        </member>
+        <member name="F:TestDoc.MyNewClass.contentSize">
+            <summary>
+            contentSize is how much data is currently stored
+            </summary>
+        </member>
+        <member name="M:TestDoc.MyNewClass.#ctor(System.Int32)">
+            <summary>
+            class consturctor
+            </summary>
+            <param name="n">The size of the array</param>
+        </member>
+        <member name="M:TestDoc.MyNewClass.AddData(System.Single)">
+            <summary>
+            
+            </summary>
+            <param name="f">The data to be added</param>
+            <returns>
+            0 if worked
+            -1 if failed
+            </returns>
+        </member>
+        <member name="M:TestDoc.MyNewClass.DataAt(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="n">The item in the array</param>
+            <returns>
+            arrayData[n] if n <contentSize> 
+            NaN if n > </contentSize>
+            </returns>
+        </member>
+        <member name="M:TestDoc.Program.Main">
+            <summary>
+             The main entry point for the application.
+            </summary>
+        </member>
+    </members>
+</doc>
